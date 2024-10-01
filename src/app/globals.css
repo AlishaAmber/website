@@ -1,7 +1,7 @@
 
 
 .intro-text {
-  font-weight: 700;
+  font-weight: 800;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   line-height: 1.2;
   color: #000000;
@@ -9,7 +9,7 @@
 }
 
 .name {
-  font-weight: 700;
+  font-weight: 800;
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.2;
   color: #000000;
@@ -25,26 +25,14 @@
 
 
 /* Image Section */
-.image-container {
-  position: absolute;
-  height: 140%;
-  right: -20%;
-  top: -20%;
-  width: 70%;
-  transform: rotate(9.67deg);
-  background: #000000;
-  overflow: hidden;
-  z-index: 1;
-}
-
 .profile-image {
-  position: justify;
-  width: 100%;
-  height: 90%;
+  position:center;
+  width: 50%;
+  height: 100%;
   top: 10%;
-  left: -10%;
-  transform: rotate(-9.67deg);
-  object-fit: contain;
+  left: -20%;
+  transform: rotate(.67deg);
+  object-fit: center;
 }
 
 /* Responsive Design */
